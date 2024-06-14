@@ -66,3 +66,31 @@ nav{
 .input-group-text{
     cursor: pointer;
 }
+
+.collapse:not(.show) {
+     display:inline-block !important; 
+}
+
+.nav-item{
+    margin-left: auto;
+}
+
+@media  screen and (max-width: 992px){
+  .navbar-nav{
+    display: inline;
+    width: 50% !important;
+  }
+  
+  .navbar-nav a{
+    padding-inline: 0.5rem;
+  }
+
+
+}
+
+@media  screen and (max-width: 500px){
+    html{
+     font-size: 10px;
+    }
+ 
+ }
