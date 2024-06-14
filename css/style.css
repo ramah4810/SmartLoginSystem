@@ -1,0 +1,68 @@
+
+body{
+    font-family: "Titillium Web", sans-serif;
+}
+
+
+.bg-petrol{
+    background-color: #24353f;
+}
+
+.main-container{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+
+.text-h1-blue{
+    color: #17a2b8;
+}
+
+.container{
+    width: 60% !important;
+}
+
+.btn-outline-blue{
+    border-color: #17a2b8 !important;
+}
+
+input::placeholder{
+    color: rgba(240, 248, 255, 0.572) !important;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: #80bdff;
+}
+
+h6 a:hover{
+    text-decoration: underline !important;
+}
+
+.text-success{
+    color: #28a745 !important;
+}
+
+#signUpBtn:hover{
+    color: #fff !important;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+#logInBtn:hover{
+    color: #fff !important;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.w-85{
+   width: 85% !important;
+}
+
+nav{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+
+.input-group-text{
+    cursor: pointer;
+}
