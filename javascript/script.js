@@ -163,7 +163,7 @@ function logOut() {
     signinGrp.classList.remove("d-none");
     homeGrp.classList.add("d-none");
     navbar.classList.add("d-none");
-    document.title = "Welcome";
+    document.title = "Sign in";
     clearForm();
 }
 
